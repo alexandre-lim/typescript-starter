@@ -1,0 +1,19 @@
+{
+  "name": "typescript-starter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Typescript starter",
+  "author": "Alexandre Lim",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint -c ./.eslintrc.json ./src/**/*.ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint": "^6.5.1",
+    "typescript": "^3.6.3"
+  }
+}

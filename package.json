@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Typescript starter",
   "author": "Alexandre Lim",
+  "license": "ISC",
   "scripts": {
     "start": "node build/index.js",
     "build": "tsc",

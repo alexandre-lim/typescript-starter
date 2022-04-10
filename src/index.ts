@@ -1,4 +1,4 @@
-import { sum } from "./sum";
+import { sum } from './sum';
 
 class Student {
   fullName: string;
@@ -16,7 +16,7 @@ function greeter(person: Person): string {
   return `Hello, ${person.firstName} ${person.lastName}`;
 }
 
-const user = new Student("Jane", "M.", "User");
+const user = new Student('Jane', 'M.', 'User');
 
 console.log(sum(3, 3));
 console.log(greeter(user));
